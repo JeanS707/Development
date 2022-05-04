@@ -2,18 +2,23 @@ import "./styles.css";
 
 export default function App() {
   // todo: create card array
-
+  const cards = [1, 2, 3, 4];
   return (
-    <div>{/* todo: map over cards array and return card component */}</div>
+    <div>
+      {cards.map(function (card) {
+        return <Card />;
+      })}
+    </div>
   );
 }
 
 // todo: make a card component
-function card: [1, 2, 3, 4];
-const cards = [
-  <card>
-];
+function Card() {
+  return <div>Card1</div>;
+}
 
-{/* <div class="row1"></div>; */}
-
-
+// myArray.map(function(itemInArray) {
+//  return (
+//   <div>jsx</div>
+//  )
+//})
