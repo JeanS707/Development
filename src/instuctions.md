@@ -1,6 +1,7 @@
 ## requirements:
 
-- 8 cards (4 in two rows) with fronts and backs
+- [x] 8 cards (4 in two rows)
+- [] card should show blank until flipped
 - have the code read when a card has been matched
 - if card matched, stay flipped, if not then flip back
 - if all cards matched = game end => you win
